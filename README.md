@@ -6,9 +6,10 @@ Structure
     - Character
     - Bot
   - Item
-- Singleton
-  - ShaderMgr
-  - MessageMgr
-  - ItemMgr
-  - SceneMgr
+  
+- GameMgr ( store instances of other managers )
+- ShaderMgr
+- MessageMgr
+- ItemMgr
+- SceneMgr
 
