@@ -1,10 +1,14 @@
 # Witch
-* Structure
-- BaseObject - Actor - Character(player)
-                     - Bot
-             - Item  
-- GameMgr
-- ShaderMgr
-- MessageMgr(network)
-- ItemMgr
-- SceneMgr
+Structure
+
+- BaseObject
+  - Actor
+    - Character
+    - Bot
+  - Item
+- Singleton
+  - ShaderMgr
+  - MessageMgr
+  - ItemMgr
+  - SceneMgr
+
